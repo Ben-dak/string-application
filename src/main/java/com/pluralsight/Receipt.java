@@ -7,22 +7,22 @@ public class Receipt {
         //Days in a week
         int daysinweek = 7;
 
-        System.out.println("There are " + daysinweek + " days in a week.");
+        System.out.println("There are " + daysinweek + " days in a week");
 
         //The price of coffee ($4.99)
-        double coffeePrice = 4.99;
+        double coffeeprice = 4.99;
 
-        System.out.println("The price of coffee is $" + coffeePrice + ".");
+        System.out.println("The price of coffee is $" + coffeeprice);
 
         //Your favorite letter
-        char favoriteLetter = 'D';
+        char favoriteletter = 'D';
 
-        System.out.println("My favorite letter is '" + favoriteLetter + "'.");
+        System.out.println("My favorite letter is '" + favoriteletter);
 
         //Whether it's raining (true/false)
-        boolean isRaining = true;
+        boolean israining = true;
 
-        System.out.println("Is it raining today? " + isRaining);
+        System.out.println("Is it raining today? " + israining);
 
     }
 }
