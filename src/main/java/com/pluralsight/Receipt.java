@@ -9,6 +9,5 @@ public class Receipt {
 
         System.out.println("You bought " + itemamount + " " + itemname + " for $7.50");
 
-
     }
 }
