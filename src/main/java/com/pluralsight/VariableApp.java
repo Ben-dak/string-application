@@ -2,6 +2,8 @@ package com.pluralsight;
 
 public class VariableApp {
     public static void main(String[] args) {
+
+        //STEP 1
         /** Question 1: Declare a variable to store your favorite color
          * Declaring variable is a String
          */
@@ -36,6 +38,29 @@ public class VariableApp {
         String nicemessage = "Dave's jokes help my goofy brain wake up in the morning.";
 
         System.out.println("The Answer is " + nicemessage);
+
+
+        //STEP 2
+
+        //Days in a week
+        int daysinweek = 7;
+
+        System.out.println("There are " + daysinweek + " days in a week");
+
+        //The price of coffee ($4.99)
+        double coffeeprice = 4.99;
+
+        System.out.println("The price of coffee is $" + coffeeprice);
+
+        //Your favorite letter
+        char favoriteletter = 'D';
+
+        System.out.println("My favorite letter is '" + favoriteletter);
+
+        //Whether it's raining (true/false)
+        boolean israining = true;
+
+        System.out.println("Is it raining today? " + israining);
 
 
     }
